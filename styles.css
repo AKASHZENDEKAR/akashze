@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+   }
+   /* Page Styles */
+   .page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ height: 100%;
+}
+.hidden {
+ display: none;
+}
+/* Login Page */
+#login-page {
+ background: url('login.jpg') no-repeat center center fixed;
+ background-size: cover;
+}
+/* Home Page */
+#home-page {
+ background: url('home.jpg') no-repeat center center fixed;
+ background-size: cover;
+}
+#home-page h1 {
+ font-size: 36px;
+ color: red;
+}
+#home-page p {
+ font-size: 20px;
+ color: red;
+}
+#quiz-page {
+    background: url('quiz.jpg') no-repeat center center fixed;
+    background-size: cover;
+   }
+   /* Result Page */
+   #result-page {
+    background-color: skyblue;
+    background-size: cover;
+   }
+   /* Form Styling */
+   form {
+    background: rgba(255, 255, 255, 0);
+    padding: 30px;
+    border-radius: 15px;
+   }
+   input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+   }
+   button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ font-size: 16px;
+}
+.quiz-btn, #next-btn, #home-btn {
+ margin-top: 20px;
+ padding: 10px 20px;
+ font-size: 18px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.quiz-btn:hover, #next-btn:hover, #home-btn:hover {
+ background-color: #ddd;
+}
+#question {
+ font-size: 24px;
+ margin-bottom: 20px;
+ background-color: red;
+}
+#question-tittle {
+ font-size: 24px;
+ margin-bottom: 20px;
+ background-color:blue;
+}
+.option-btn {
+ display: block;
+ margin: 10px auto;
+ padding: 10px;
+ font-size: 18px;
+ cursor: pointer;
+ border-radius: 5px;
+ background-color: whitesmoke;
+}
+.option-btn:hover {
+ background-color:white;
+}

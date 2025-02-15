@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Quiz App</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <!-- Login Page -->
+ <div id="login-page" class="page">
+ <form id="login-form">
+ <h1>Login page</h1>
+ <input type="text" id="username" placeholder="Username" required><br>
+ <input type="password" id="password" placeholder="Password" required><br>
+ <button type="submit">Login</button>
+ <p id="login-error" class="error-message"></p>
+ </form>
+ </div>
+<!-- Home Page -->
+ <div id="home-page" class="page hidden">
+ <h1>Welcome to the Quiz website</h1>
+ <p>Select a Quiz:</p>
+ <button class="quiz-btn" data-quiz="java">Java Quiz</button>
+ <button class="quiz-btn" data-quiz="python">Python Quiz</button>
+ <button class="quiz-btn" data-quiz="c">C Quiz</button>
+ <button class="quiz-btn" data-quiz="html">HTML Quiz</button>
+ </div>
+ <!-- Quiz Page -->
+ <div id="quiz-page" class="page hidden">
+ <h1 id="quiz-title">Quiz</h1>
+ <div id="question"></div>
+ <div id="options"></div>
+ <button id="next-btn" class="hidden">Next</button>
+ 
+ </div>
+ <!-- Result Page -->
+ <div id="result-page" class="page hidden">
+ <h1>Quiz Results</h1>
+ <h1> <p id="result-text"></p></h1>
+ 
+ <h1>Quize website created by :
+ </h1>
+ <p>Akash zendekar</p>
+ <p>Puneet shigli</p>
+ <p>yatish</p>
+ <p>sharvan</p>
+ <h1>technology used by :</h1>
+ <p>html</p>
+ <p>css</p>
+ <p>javascript</p>
+ <button id="home-btn">Back to Home</button>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
